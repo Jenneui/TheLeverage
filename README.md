@@ -1,2 +1,0 @@
-# TheLeverage
-first draft
