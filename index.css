@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+body {
+/*	font-family: 'Cormorant Garamond', serif;*/
+/*	font-family: 'Monoton', cursive;*/	
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #fff;
+	margin: 0 5vw;
+}
+
+/*universial styling*/
+hr {
+	width: 95vw;
+	margin: 0 auto;
+}
+section {
+	margin: 5px 0;
+}
+img {
+	width: 100%;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+p {
+	font-size: 13px;
+}
+
+/*header*/
+header {
+	text-align: center;
+}
+header h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 60px;
+}
+
+/*navigation bar*/
+.nav-bar {
+	margin: 0 550px;
+}
+.nav-bar ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.nav-bar ul li {
+	display: inline-block;
+}
+.nav-bar ul li:hover {
+	text-decoration: underline;
+}
+
+/*side information*/
+.info-bar {
+	display: inline-flex;
+	align-items: left;
+	margin: 0 auto;
+}
+.date {
+	display: flex;
+	margin: 0 20px 0 0;
+}
+.weather {
+	display: flex;
+	padding: 0 13px;
+	border-left: 1px solid #999;
+}
+.weather img {
+	border-radius: 50%;
+	max-width: 5%;
+	margin: 0 5px 0 0;
+}
+.weather div p {
+	margin: 1px 3px;
+}
+
+/*featured*/
+.featured-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px auto;
+	height: fit-content;
+	vertical-align: top;
+}
+.featured-col {
+	flex-basis: 30%;
+	text-align: left;
+	max-width: 400px;
+	margin: 0 10px 0 0;
+	box-sizing: border-box;
+}
+.featured-main {
+	flex-basis: 55%;
+	text-align: left;
+	padding: 0 10px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+.featured-books {
+	flex-basis: 15%;
+	margin: 0 0 0 10px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.category {
+	color: red;
+	margin: 2% 0;
+	font-weight: 400;
+}
+.featured-col h3 {
+	font-size: 20px;
+	margin: 1% 0;
+}
+.f-main-title {
+	font-size: 25px;
+	margin: 1% 0;
+}
+.preread {
+	font-size: 15px;
+	color: #555;
+	margin: 2% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
